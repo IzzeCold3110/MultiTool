@@ -61,7 +61,7 @@ def download_files():
 
 def glue_pdfs():
     from wyl.pdf import MyPDFReader
-    pdf_ = MyPDFReader(fname_filter={"prefix": "CCE24082021"}, overwrite_existing=False, debug=True)
+    pdf_ = MyPDFReader(fname_filter={"prefix": "TestPDF"}, overwrite_existing=False, debug=True)
     pdf_.start()
     sys.exit(0)
 
